@@ -43,15 +43,71 @@
             android:layout_height="wrap_content"
             android:text="Misro Bandung" />
 
+        <RadioButton
+            android:id="@+id/rbCilok"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cilok Bandung" />
+
+        <RadioButton
+            android:id="@+id/rbSoto"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soto Betawi" />
+
+        <RadioButton
+            android:id="@+id/rbSate"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sate" />
+
+        <RadioButton
+            android:id="@+id/rbMangga"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jus Mangga" />
+
+        <RadioButton
+            android:id="@+id/rbDimsum"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dimsum" />
+
+        <RadioButton
+            android:id="@+id/rbSiomay"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siomay" />
+
+        <RadioButton
+            android:id="@+id/rbBatagor"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batagor" />
+
+        <RadioButton
+            android:id="@+id/rbRujak"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rujak" />
+
     </RadioGroup>
 
     <Button
         android:id="@+id/btnLanjut"
-        android:backgroundTint="#333333"
-        android:textColor="#FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#333333"
         android:text="Lanjut"
-        android:layout_marginTop="24dp"/>
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>

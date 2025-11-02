@@ -15,7 +15,7 @@ class EndActivity : AppCompatActivity() {
         setContentView(R.layout.activity_end)
 
         findViewById<Button>(R.id.btnPesanLagi).setOnClickListener {
-            startActivity(Intent(this, OrderFragment::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
         }
 
         val btnExit = findViewById<Button>(R.id.btnExit)

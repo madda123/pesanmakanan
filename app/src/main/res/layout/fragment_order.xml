@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvHalo1"
+        android:textColor="#333333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo Madda,"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:text="Makanan"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupMakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbCombro"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Combro Bandung" />
+
+        <RadioButton
+            android:id="@+id/rbMisro"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misro Bandung" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnLanjut"
+        android:backgroundTint="#333333"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjut"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

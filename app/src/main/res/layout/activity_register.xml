@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTitleRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Register User"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textColorHint="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleRegister"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/etRegUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textColorHint="#d3d3d3"
+        app:layout_constraintTop_toBottomOf="@id/etName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textColorHint="#d3d3d3"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@id/etRegUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+
+    <Button
+        android:id="@+id/btnRegisterAuth"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#333333"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRegPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

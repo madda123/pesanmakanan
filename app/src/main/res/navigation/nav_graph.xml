@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="lat.pam.pesanmakanan.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="lat.pam.pesanmakanan.OrderFragment"
+        android:label="Order">
+        <action
+            android:id="@+id/action_orderFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="lat.pam.pesanmakanan.ResultFragment"
+        android:label="Result" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="lat.pam.pesanmakanan.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>
